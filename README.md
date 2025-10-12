@@ -34,19 +34,6 @@ g++ -std=c++17 -O2 -Wall -Wextra -o main filename.cpp && ./a.out
 - 需要 C++17 及以上  
 - 模板里如果用到 `__int128`，请确保评测机支持，否则自行改 `long long`
 
-## 常见算法速览
-| 类别   | 模板文件                       | 说明                               |
-| ------ | ------------------------------ | ---------------------------------- |
-| 最短路 | `graph/dijkstra.cpp`           | 堆优化 Dijkstra，支持路径记录      |
-| 网络流 | `graph/dinic.cpp`              | 当前弧优化 Dinic，复杂度 $O(n^2m)$ |
-| 并查集 | `data-struct/dsu.cpp`          | 路径压缩 + 按秩合并                |
-| 线段树 | `data-struct/segtree_lazy.cpp` | 区间加 / 区间求和                  |
-| 数论   | `math/exgcd.cpp`               | 扩展欧几里得 + 逆元                |
-| 字符串 | `string/kmp.cpp`               | 单模式串匹配                       |
-| 几何   | `geo/convex_hull.cpp`          | Andrew 凸包，极点排序              |
-
-（更多文件请直接翻目录，命名尽量自解释）
-
 ## 更新节奏
 - 每场比赛后如果写了新板子就丢进来  
 - 顺手修 typo，保证「复制即可过样例」

@@ -33,19 +33,6 @@ g++ -std=c++17 -O2 -Wall -Wextra -o main filename.cpp && ./a.out
 - C++17 or higher is required  
 - Templates using `__int128` need judge support; fallback to `long long` if not available
 
-## Quick Algorithm Index
-| Category      | File                           | Description                                |
-| ------------- | ------------------------------ | ------------------------------------------ |
-| Shortest Path | `graph/dijkstra.cpp`           | heap-optimized Dijkstra with path printing |
-| Max Flow      | `graph/dinic.cpp`              | current-arc Dinic, $O(n^2m)$               |
-| Union-Find    | `data-struct/dsu.cpp`          | path compression + union by rank           |
-| Segment Tree  | `data-struct/segtree_lazy.cpp` | range add / range sum                      |
-| Number Theory | `math/exgcd.cpp`               | extended Euclidean & modular inverse       |
-| String        | `string/kmp.cpp`               | single-pattern matching                    |
-| Geometry      | `geo/convex_hull.cpp`          | Andrew's monotone chain                    |
-
-(Browse the folders for more; filenames are self-explanatory.)
-
 ## Update Cadence
 - New templates land after each contest  
 - Typos are fixed on the fly so "copy → paste → pass samples" always holds
