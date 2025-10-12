@@ -11,7 +11,12 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img alt="Language" src="https://img.shields.io/badge/language-C++-orange.svg">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-green.svg">
+  <img alt="Build Status" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
+  <img alt="Downloads" src="https://img.shields.io/badge/downloads-1--50-blue.svg">
+  <img alt="Issues" src="https://img.shields.io/badge/issues-0-red.svg">
 </p>
+
 
 
 ## 文件组织
@@ -28,10 +33,10 @@ CodeForge/
 
 ## 一键编译
 ```bash
-g++ -std=c++17 -O2 -Wall -Wextra -o main filename.cpp && ./a.out
+g++ -std=c++23 -O2 -Wall -Wextra -o main filename.cpp && ./a.out
 ```
 **提示**  
-- 需要 C++17 及以上  
+- 需要 C++23 及以上  
 - 模板里如果用到 `__int128`，请确保评测机支持，否则自行改 `long long`
 
 ## 更新节奏
