@@ -9,7 +9,12 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img alt="Language" src="https://img.shields.io/badge/language-C++-orange.svg">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-green.svg">
+  <img alt="Build Status" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
+  <img alt="Downloads" src="https://img.shields.io/badge/downloads-1--50-blue.svg">
+  <img alt="Issues" src="https://img.shields.io/badge/issues-0-red.svg">
 </p>
+
 </div>
 
 
@@ -27,10 +32,10 @@ Every `.cpp` is self-contained—just drop it into your project.
 
 ## Build in One Line
 ```bash
-g++ -std=c++17 -O2 -Wall -Wextra -o main filename.cpp && ./a.out
+g++ -std=c++23 -O2 -Wall -Wextra -o main filename.cpp && ./a.out
 ```
 **Notes**  
-- C++17 or higher is required  
+- C++23 or higher is required  
 - Templates using `__int128` need judge support; fallback to `long long` if not available
 
 ## Update Cadence
