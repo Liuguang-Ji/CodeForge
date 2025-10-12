@@ -1,12 +1,14 @@
-[中文](README.md)
+# 🔥 CodeForge
+
+**算法竞赛模板库 | Algorithm Template Library for CP**
+
+[中文](README.md) | [English](README.en.md)
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img alt="Language" src="https://img.shields.io/badge/language-C++-orange.svg">
 </p>
 
-# CodeForge  
-A personal C++ competitive-programming template stash: copy, paste, and AC.
 
 ## Folder Layout
 ```
