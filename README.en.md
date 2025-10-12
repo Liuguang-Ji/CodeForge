@@ -20,7 +20,7 @@ CodeForge/
 ├─ data-struct/     # data structures
 ├─ math/            # number theory & poly
 ├─ string/          # string algorithms
-├─ geo/             # computational geometry
+├─ dp/              # dynamic programming
 └─ misc/            # utilities (fast IO, stress, debug macros)
 ```
 Every `.cpp` is self-contained—just drop it into your project.
