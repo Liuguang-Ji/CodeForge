@@ -1,3 +1,4 @@
+<div align="center">
 # 🔥 CodeForge
 
 **算法竞赛模板库 | Algorithm Template Library for CP**
@@ -8,6 +9,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img alt="Language" src="https://img.shields.io/badge/language-C++-orange.svg">
 </p>
+</div>
 
 
 ## Folder Layout
