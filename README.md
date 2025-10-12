@@ -2,12 +2,7 @@
 
 
 <div align="center">
-  
-
-
  ![8411c4fc6c464d9b6182683d58252c91](https://github.com/user-attachments/assets/62e648d1-b64d-4f17-8ca6-fed4d7ff23b3)
-
-
  </div>
 
 <div align="center">
@@ -30,6 +25,8 @@
 
 
 ## 文件组织
+
+
 ```
 CodeForge/
 ├─ graph/           # 图论
@@ -39,12 +36,18 @@ CodeForge/
 ├─ dp/              # 动态规划
 └─ misc/            # 杂项（快读、对拍、调试宏）
 ```
+
+
 每个 `.cpp` 都是独立模板，直接复制即可塞进任意工程。
 
 ## 一键编译
+
+
 ```bash
 g++ -std=c++23 -O2 -Wall -Wextra -o main filename.cpp && ./a.out
 ```
+
+
 **提示**  
 - 需要 C++23 及以上  
 - 模板里如果用到 `__int128`，请确保评测机支持，否则自行改 `long long`
