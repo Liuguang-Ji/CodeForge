@@ -1,6 +1,7 @@
 # 🔥 CodeForge
 <div align="center">
 
+![8411c4fc6c464d9b6182683d58252c91](https://github.com/user-attachments/assets/11ecb8ad-7c8a-42a9-8251-3baea2df781f)
 
 **算法竞赛模板库 | Algorithm Template Library for CP**
 
